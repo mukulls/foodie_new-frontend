@@ -1,4 +1,6 @@
+import home2 from "../assets/home2.png";
 const Hero=()=>{
+  
     return(
         <div>
         <div className="flex justify-between items-center bg-black text-white h-34 ">
@@ -7,7 +9,7 @@ const Hero=()=>{
         <p className="text-3xl mt-4">Order from your favorite restaurant now</p>
       </div>
       <div className="flex-shrink-0">
-        <img src="../assets/home2.png" alt="Image" className="w-full h-full object-fit transform scale-125 -ml-16 mt-10" />
+        <img src={home2} alt="Image" className="w-full h-full object-fit transform scale-125 -ml-16 mt-10" />
       </div>
     </div>
     </div>
